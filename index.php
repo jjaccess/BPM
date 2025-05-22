@@ -66,10 +66,7 @@
       <input type="password" id="password" class="fadeIn third" name="password" autocomplete="off" placeholder="Contraseña" required="">
 	  <select name="empresa" id="empresa" type="text" class="fadeIn third" required>
 	<option value ="" hidden  selected required="">Seleccione empresa:</option>
-    <option value ="1">Supergiros Orinoquia</option>
-    <option value ="2">Demo 1</option>
-	<option value ="3">Copia Demo 2</option>
-<option value ="6">Demo</option>
+    <option value ="1">Demo</option>
     </select>
 	  <input class="btn btn-secondary active" style="background-color:#000000;"type="submit" name="fadeIn fourth" value="Ingresar" href="#">
     </form>
