@@ -9,8 +9,8 @@ if($idempresa=='1')
 {
 	class conectar{
 		private $servidor="localhost";
-		private $usuario="admrsoc";
-		private $password="7637ba32d1c3c5673b9fc5a35fb91182";
+		private $usuario="root";
+		private $password="";
 		private $bd="BPM";
 
 		public function conexion(){
@@ -26,9 +26,9 @@ if($idempresa=='1')
 {
 	class conectar{
 		private $servidor="localhost";
-		private $usuario="admrsoc";
-		private $password="7637ba32d1c3c5673b9fc5a35fb91182";
-		private $bd="BPMSSN";
+		private $usuario="root";
+		private $password="0";
+		private $bd="BPM2";
 
 		public function conexion(){
 			$mysqli=mysqli_connect($this->servidor,
@@ -44,9 +44,9 @@ elseif($idempresa=='3')
 {
 	class conectar{
 		private $servidor="localhost";
-		private $usuario="admrsoc";
-		private $password="7637ba32d1c3c5673b9fc5a35fb91182";
-		private $bd="BPMRSO";
+		private $usuario="root";
+		private $password="0";
+		private $bd="BPM3";
 
 		public function conexion(){
 			$mysqli=mysqli_connect($this->servidor,
@@ -62,9 +62,9 @@ elseif($idempresa=='4')
 {
 	class conectar{
 		private $servidor="localhost";
-		private $usuario="admrsoc";
-		private $password="7637ba32d1c3c5673b9fc5a35fb91182";
-		private $bd="BPMATL";
+		private $usuario="root";
+		private $password="0";
+		private $bd="BPM4";
 
 		public function conexion(){
 			$mysqli=mysqli_connect($this->servidor,
@@ -80,9 +80,9 @@ elseif($idempresa=='5')
 {
 	class conectar{
 		private $servidor="localhost";
-		private $usuario="admrsoc";
-		private $password="7637ba32d1c3c5673b9fc5a35fb91182";
-		private $bd="BPMMAG";
+		private $usuario="root";
+		private $password="0";
+		private $bd="BPM5";
 
 		public function conexion(){
 			$mysqli=mysqli_connect($this->servidor,
@@ -98,9 +98,9 @@ elseif($idempresa=='6')
 {
 	class conectar{
 		private $servidor="localhost";
-		private $usuario="admrsoc";
-		private $password="7637ba32d1c3c5673b9fc5a35fb91182";
-		private $bd="BPMDEMO";
+		private $usuario="root";
+		private $password="0";
+		private $bd="BPM6";
 
 		public function conexion(){
 			$mysqli=mysqli_connect($this->servidor,

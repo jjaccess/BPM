@@ -143,14 +143,6 @@ $mysqli = $conexion->conexion();
 		<?php } ?>
 
 		</li>
-		<li class="nav-item">
-		<?php if($_SESSION['tipo_usuario']==1 || $_SESSION['tipo_usuario']==11) { ?>
-			<a class="nav-link" href="resultv/principal.php" style="color:  #000000;"> 
-			<P>
-    			<img src="img/new/results.png" width="70" height="70" alt="">				
-					Resultados Web
-			</a>
-		<?php } ?>
 
 		<?php } ?>
 
