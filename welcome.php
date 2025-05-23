@@ -59,7 +59,7 @@ $mysqli = $conexion->conexion();
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" type="text/css" href="admin/librerias/fontawesome/css/all.css">
 		<link rel="stylesheet" type="text/css" href="admin/librerias/datatable/dataTables.bootstrap4.min.css">
-		<link rel="icon" type="image/png" href="img/Supergiros.ico" />
+		<link rel="icon" type="image/png" href="img/Bpm.ico" />
 	</head>
 	<body>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">

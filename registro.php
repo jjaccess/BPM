@@ -97,7 +97,7 @@
 	<head>
 		<title>Registro</title>
 		
-		<link rel="icon" type="image/png" href="img/Supergiros.ico" />
+		<link rel="icon" type="image/png" href="img/Bpm.ico" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" >
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css" >
 		<script src="js/bootstrap.min.js" ></script>
